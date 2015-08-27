@@ -1,0 +1,351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Peter Selinger
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: selinger@users.sourceforge.net\n"
+"POT-Creation-Date: 2009-08-26 15:12-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/ccrypt.c:56
+msgid "bad file format"
+msgstr ""
+
+#: src/ccrypt.c:59
+msgid "key does not match"
+msgstr ""
+
+#: src/ccrypt.c:62
+msgid "buffer overflow"
+msgstr ""
+
+#: src/ccrypt.c:69
+msgid "unknown error"
+msgstr ""
+
+#: src/main.c:45 src/main.c:90 src/main.c:95
+#, c-format
+msgid "%s %s. Secure encryption and decryption of files and streams.\n"
+msgstr ""
+
+#: src/main.c:48
+#, c-format
+msgid ""
+"Usage: %s [mode] [options] [file...]\n"
+"       %s [options] [file...]\n"
+"       %s [options] [file...]\n"
+"       %s [options] file...\n"
+"\n"
+msgstr ""
+
+#: src/main.c:53
+#, c-format
+msgid ""
+"Modes:\n"
+"    -e, --encrypt         encrypt\n"
+"    -d, --decrypt         decrypt\n"
+"    -c, --cat             cat; decrypt files to stdout\n"
+"    -x, --keychange       change key\n"
+"    -u, --unixcrypt       decrypt old unix crypt files\n"
+"\n"
+"Options:\n"
+"    -h, --help            print this help message and exit\n"
+"    -V, --version         print version info and exit\n"
+"    -L, --license         print license info and exit\n"
+"    -v, --verbose         print progress information to stderr\n"
+"    -q, --quiet           run quietly; suppress warnings\n"
+"    -f, --force           overwrite existing files without asking\n"
+"    -m, --mismatch        allow decryption with non-matching key\n"
+"    -E, --envvar var      read keyword from environment variable (unsafe)\n"
+"    -K, --key key         give keyword on command line (unsafe)\n"
+"    -k, --keyfile file    read keyword(s) as first line(s) from file\n"
+"    -P, --prompt prompt   use this prompt instead of default\n"
+"    -S, --suffix .suf     use suffix .suf instead of default %s\n"
+"    -s, --strictsuffix    refuse to encrypt files which already have suffix\n"
+"    -F, --envvar2 var     as -E for second keyword (for keychange mode)\n"
+"    -H, --key2 key        as -K for second keyword (for keychange mode)\n"
+"    -Q, --prompt2 prompt  as -P for second keyword (for keychange mode)\n"
+"    -t, --timid           prompt twice for encryption keys (default)\n"
+"    -b, --brave           prompt only once for encryption keys\n"
+"    -y, --keyref file     encryption key must match this encrypted file\n"
+"    -r, --recursive       recurse through directories\n"
+"    -R, --rec-symlinks    follow symbolic links as subdirectories\n"
+"    -l, --symlinks        dereference symbolic links\n"
+"    -T, --tmpfiles        use temporary files instead of overwriting "
+"(unsafe)\n"
+"    --                    end of options, filenames follow\n"
+msgstr ""
+
+#: src/main.c:91 src/main.c:96
+#, c-format
+msgid "Copyright (C) 2000-2009 Peter Selinger.\n"
+msgstr ""
+
+#: src/main.c:99
+#, c-format
+msgid ""
+"For the full text of the GNU General Public License, see the file\n"
+"COPYING distributed with this software.\n"
+"\n"
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 2 of the License, or\n"
+"(at your option) any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software\n"
+"Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307, USA.\n"
+msgstr ""
+
+#: src/main.c:126
+#, c-format
+msgid ""
+"\n"
+"Command line:\n"
+msgstr ""
+
+#: src/main.c:130 src/main.c:131
+msgid "(known)"
+msgstr ""
+
+#: src/main.c:130 src/main.c:131
+msgid "(unknown)"
+msgstr ""
+
+#: src/main.c:136 src/main.c:137 src/main.c:142 src/main.c:144
+msgid "(none)"
+msgstr ""
+
+#: src/main.c:255
+#, c-format
+msgid "%s: environment variable %s does not exist.\n"
+msgstr ""
+
+#: src/main.c:345
+#, c-format
+msgid "Try --help for more information.\n"
+msgstr ""
+
+#: src/main.c:349
+#, c-format
+msgid "%s: unimplemented option -- %c\n"
+msgstr ""
+
+#: src/main.c:377
+#, c-format
+msgid "%s: option -m can only be used with -c or when running as a filter.\n"
+msgstr ""
+
+#: src/main.c:384
+#, c-format
+msgid "%s: warning: empty list of filenames given\n"
+msgstr ""
+
+#: src/main.c:394
+#, c-format
+msgid ""
+"%s: encrypted data not written to a terminal. Use -f to force encryption.\n"
+"Try --help for more information.\n"
+msgstr ""
+
+#: src/main.c:402
+#, c-format
+msgid ""
+"%s: encrypted data not read from a terminal. Use -f to force decryption.\n"
+"Try --help for more information.\n"
+msgstr ""
+
+#: src/main.c:439
+#, c-format
+msgid "%s: could not read key from %s: %s\n"
+msgstr ""
+
+#: src/main.c:446 src/main.c:452
+#, c-format
+msgid "%s: error reading keyfile\n"
+msgstr ""
+
+#: src/main.c:467
+msgid "Enter encryption key: "
+msgstr ""
+
+#: src/main.c:471
+msgid "Enter decryption key: "
+msgstr ""
+
+#: src/main.c:475
+msgid "Enter old key: "
+msgstr ""
+
+#: src/main.c:479
+msgid "Enter key: "
+msgstr ""
+
+#: src/main.c:485 src/main.c:507
+#, c-format
+msgid "%s: no key given\n"
+msgstr ""
+
+#: src/main.c:492 src/main.c:514
+msgid "(repeat) "
+msgstr ""
+
+#: src/main.c:494 src/main.c:516
+#, c-format
+msgid "Sorry, the keys you entered did not match.\n"
+msgstr ""
+
+#: src/main.c:503
+msgid "Enter new key: "
+msgstr ""
+
+#: src/main.c:530
+#, c-format
+msgid "%s: could not open %s: %s\n"
+msgstr ""
+
+#: src/main.c:539
+#, c-format
+msgid "The encryption key does not match the reference file.\n"
+msgstr ""
+
+#: src/readkey.c:27
+#, c-format
+msgid "%s: cannot open /dev/tty: %s\n"
+msgstr ""
+
+#: src/traverse.c:231
+#, c-format
+msgid "%s: interrupted.\n"
+msgstr ""
+
+#: src/traverse.c:241
+#, c-format
+msgid ""
+"Interrupt - will exit after current file.\n"
+"Press CTRL-C twice to exit now (warning: this can lead to loss of data).\n"
+msgstr ""
+
+#: src/traverse.c:271
+#, c-format
+msgid "%s: encrypt write-protected file %s (y or n)? "
+msgstr ""
+
+#: src/traverse.c:274
+#, c-format
+msgid "%s: decrypt write-protected file %s (y or n)? "
+msgstr ""
+
+#: src/traverse.c:277
+#, c-format
+msgid "%s: perform keychange on write-protected file %s (y or n)? "
+msgstr ""
+
+#: src/traverse.c:282
+#, c-format
+msgid "Not changed.\n"
+msgstr ""
+
+#: src/traverse.c:294
+#, c-format
+msgid "Already visited inode %s.\n"
+msgstr ""
+
+#: src/traverse.c:306
+#, c-format
+msgid "%s: warning: %s has %d links\n"
+msgstr ""
+
+#: src/traverse.c:332 src/traverse.c:513
+#, c-format
+msgid "Encrypting %s\n"
+msgstr ""
+
+#: src/traverse.c:339 src/traverse.c:519 src/traverse.c:616
+#, c-format
+msgid "Decrypting %s\n"
+msgstr ""
+
+#: src/traverse.c:346 src/traverse.c:525
+#, c-format
+msgid "Changing key for %s\n"
+msgstr ""
+
+#: src/traverse.c:376 src/traverse.c:554
+#, c-format
+msgid "%s: %s: %s -- unchanged\n"
+msgstr ""
+
+#: src/traverse.c:392 src/traverse.c:570
+#, c-format
+msgid "%s: could not rename %s to %s: %s\n"
+msgstr ""
+
+#: src/traverse.c:470
+#, c-format
+msgid "%s: could not create temporary file for %s: %s\n"
+msgstr ""
+
+#: src/traverse.c:580
+#, c-format
+msgid "%s: could not remove %s: %s\n"
+msgstr ""
+
+#: src/traverse.c:635
+#, c-format
+msgid "%s: %s: %s -- ignored\n"
+msgstr ""
+
+#: src/traverse.c:709
+#, c-format
+msgid "%s: %s: is a symbolic link -- ignored\n"
+msgstr ""
+
+#: src/traverse.c:716
+#, c-format
+msgid "%s: %s: is not a regular file -- ignored\n"
+msgstr ""
+
+#: src/traverse.c:732
+#, c-format
+msgid "%s: %s already has %s suffix -- ignored\n"
+msgstr ""
+
+#: src/traverse.c:751
+#, c-format
+msgid "%s: %s already exists; overwrite (y or n)? "
+msgstr ""
+
+#: src/traverse.c:755
+#, c-format
+msgid "Not overwritten.\n"
+msgstr ""
+
+#: src/traverse.c:799
+#, c-format
+msgid "%s: %s: directory is a symbolic link -- ignored\n"
+msgstr ""
+
+#: src/traverse.c:807
+#, c-format
+msgid "%s: %s: is a directory -- ignored\n"
+msgstr ""
+
+#: src/traverse.c:817
+#, c-format
+msgid "Already visited directory %s -- skipped.\n"
+msgstr ""
